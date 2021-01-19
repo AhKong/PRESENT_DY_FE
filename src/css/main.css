@@ -1,16 +1,73 @@
+
 .menu {
-    width: 300px;
-    height: 300px;
-    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
     background-color: #ED7D31;
-    margin-left: 60px;
     border-radius:150px;
     vertical-align:middle;
     line-height:150px;
     text-align:center;
     font-size:30px; color:#fff;
+
 }
 
+.title{
+    background-color:#FFC001;
+    width:70%;
+    height:100px;
+    margin:auto;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+
+@media all and (min-width:1025px) {
+    .menu {
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+        background-color: #ED7D31;
+        margin-left: 60px;
+        border-radius:150px;
+        vertical-align:middle;
+        line-height:150px;
+        text-align:center;
+        font-size:30px; color:#fff;
+
+    }
+
+    .title{
+        background-color:#FFC001;
+        width:70%;
+        height:250px;
+        margin:auto;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 50px;
+        font-weight: 700;
+
+    }
+}
+
+
+
+.first{
+    background-size: cover;
+    background-image: url("https://lh3.googleusercontent.com/proxy/3M0kjnX159bwP2glRLdjtGa_k7TwSPQX0t4i3NQ5eeR-Y105nXSgrWmuX6bjOYlLOLnOEdgF9wGD6aCoqyN4enOddEpy9zrRjRWzWx4Hw-y4EEgLaK7NlL5gglXT5KGPH6KvyK7GNfLVwvYCeRJOYae6uTkKzxxjVCm_lNSY0d81ze3YjiQmNfcyMwFXEMWJjJzsNUxf2Rnu8IYPOY3TMVWB2DmyX8MK1l9wMajwEQ9HbS9EmermMOyDgiznMjzfehlcfjtRZPWsZLiYfp7pVEZW4HAxv6Msm2pu6v0tJ0-7");
+}
+
+.second {
+    background-image: url("https://sleeplessaliana.files.wordpress.com/2020/01/ong-seong-wu-1st-digital-single-we-belong.jpg");
+    background-size: cover;
+}
+
+ .third {
+    background-image: url("https://file3.instiz.net/data/cached_img/upload/2019/02/01/11/1e1585ae7c6cf33afe29b20462cda03a.jpg");
+    background-size: cover;
+}
 .footer {
     background-color: #A5A5A5;
     width: 70%;
@@ -27,6 +84,12 @@
 
     margin:50px auto;
 
+}
+
+.button{
+    margin-top: 3px;
+    width: 100px;
+    height: 30px;
 }
 #circle2 {
     background-color:#0009;
