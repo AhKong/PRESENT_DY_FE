@@ -3,7 +3,6 @@
     width: 200px;
     height: 200px;
     margin: 10px auto;
-    background-color: #ED7D31;
     border-radius:150px;
     vertical-align:middle;
     line-height:150px;
@@ -29,7 +28,7 @@
         width: 300px;
         height: 300px;
         display: inline-block;
-        background-color: #ED7D31;
+
         margin-left: 60px;
         border-radius:150px;
         vertical-align:middle;
@@ -55,8 +54,9 @@
 
 
 .first{
+    background-image: url("https://lh3.googleusercontent.com/proxy/viWPmhcAom8npyMYy0wRoO6JW0rNaiz0P3eLhNU_PFzDCir6-L-bAatwWIsPHXwXJnt9JnyUn8XH2zJ2GDceyM1rJVbOzfZNmGcHAPU3sREkzSUIWRemkWM_5Ti3E92LAw");
     background-size: cover;
-    background-image: url("https://lh3.googleusercontent.com/proxy/3M0kjnX159bwP2glRLdjtGa_k7TwSPQX0t4i3NQ5eeR-Y105nXSgrWmuX6bjOYlLOLnOEdgF9wGD6aCoqyN4enOddEpy9zrRjRWzWx4Hw-y4EEgLaK7NlL5gglXT5KGPH6KvyK7GNfLVwvYCeRJOYae6uTkKzxxjVCm_lNSY0d81ze3YjiQmNfcyMwFXEMWJjJzsNUxf2Rnu8IYPOY3TMVWB2DmyX8MK1l9wMajwEQ9HbS9EmermMOyDgiznMjzfehlcfjtRZPWsZLiYfp7pVEZW4HAxv6Msm2pu6v0tJ0-7");
+
 }
 
 .second {
