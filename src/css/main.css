@@ -51,7 +51,10 @@
     }
 }
 
-
+.songFont{
+    font-size: 20px;
+    font-weight: 800;
+}
 
 .first{
     background-image: url("https://lh3.googleusercontent.com/proxy/viWPmhcAom8npyMYy0wRoO6JW0rNaiz0P3eLhNU_PFzDCir6-L-bAatwWIsPHXwXJnt9JnyUn8XH2zJ2GDceyM1rJVbOzfZNmGcHAPU3sREkzSUIWRemkWM_5Ti3E92LAw");
