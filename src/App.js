@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import 'antd/dist/antd.css'
 import { Route } from 'react-router-dom';
 import MainPage from "./page/mainPage";
 import MemoryPage from "./page/memoryPage";
