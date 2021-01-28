@@ -29,6 +29,11 @@ const MainPage = ({history}) => {
     const goSongsPage = () => {
         history.push('/congratulations-on-your-graduation')
     }
+
+    const goMsgPage = () => {
+        alert('도연이의 졸업을 축하하는 메세지를 입력해주세요! 비방글을 올린다면 지구 끝까지 찾아갈거랍니다.');
+        history.push('/listen-to-my-message');
+    }
     return (
         <div style={{backgroundColor:"#5B9BD5",width:"100%",height:""}}>
             <div style={{backgroundColor:"#5B9BD5",width:"70%",height:"70px",margin:"auto"}}>
@@ -40,7 +45,7 @@ const MainPage = ({history}) => {
 
             <div className="menu-warp">
                 <div onClick={goMemoryPage} className="menu first" >이도연만 보시오</div>
-                <div className="menu second">방명록</div>
+                <div className="menu second" onClick={goMsgPage}>방명록</div>
                 <div className="menu third" onClick={goSongsPage}>축가</div>
             </div>
 
