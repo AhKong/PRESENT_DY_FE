@@ -27,6 +27,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://practical-babbage-4fbe10.netlify.app/",
   "proxy" : "http://172.30.1.58:8080/",
   "browserslist": {
     "production": [
