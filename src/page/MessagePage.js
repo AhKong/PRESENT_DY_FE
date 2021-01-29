@@ -9,12 +9,10 @@ const MessagePage = () => {
     const data = [
         {
 
-            author: 'Han Solo',
+            author: '박지훈',
             content: (
                 <p>
-                    We supply a series of design principles, practical patterns and high quality design
-                    resources (Sketch and Axure), to help people create their product prototypes beautifully and
-                    efficiently.
+                    도연아 졸업축하해^^
                 </p>
             ),
             datetime: (
@@ -110,11 +108,11 @@ const MessagePage = () => {
 
         <div className="content-warp">
             <div className="message-title">
-                <h1>도연이의 졸업을 축하하는 메세지를 작성해주세요!💌</h1>
+                <h1> 💌 도연이의 졸업을 축하하는 메세지를 작성해주세요 💌</h1>
             </div>
 
             <div className="avatar">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzA2MjFfODgg/MDAxNDk3OTczODQ4MDcy.l55AQYzWAAPozeai4V1nXo94JOZomrEF50yH-Q3MiIsg.z1sRir8Tici9RonKsZ6vp6NNp08S6ScKZr4Ob6eIls0g.GIF.milkaruu/IMG_2891.GIF?type=w800"/>
+                <img  className="myImg" src="https://mblogthumb-phinf.pstatic.net/MjAxNzA2MjFfODgg/MDAxNDk3OTczODQ4MDcy.l55AQYzWAAPozeai4V1nXo94JOZomrEF50yH-Q3MiIsg.z1sRir8Tici9RonKsZ6vp6NNp08S6ScKZr4Ob6eIls0g.GIF.milkaruu/IMG_2891.GIF?type=w800"/>
 
             </div>
 
@@ -147,6 +145,7 @@ const MessagePage = () => {
                             content={item.content}
 
                         />
+                        {localStorage.getItem("isMe") === true ?<Button>삭제</Button>:null    }
                     </li>
                 )}
             />
